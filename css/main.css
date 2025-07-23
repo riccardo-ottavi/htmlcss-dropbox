@@ -1,0 +1,25 @@
+/*regole generali*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*regole header*/
+
+#navbar {
+
+    /*debug*/
+    height: 90px;
+    background-color: blueviolet;
+}
+
+ul {
+    display: flex;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
