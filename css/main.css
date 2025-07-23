@@ -49,6 +49,23 @@ h1 {
     padding-right: 5px;
 }
 
+/*regole bottoni*/
+.small-button {
+    background-color: #0261FE;
+    color: white;
+    padding: 5px;
+}
+
+.large-button {
+    background-color: #0261FE;
+    color: white;
+    padding: 10px;
+    display: flex;
+    width: 192px;
+    text-align: center;
+}
+
+
 /*regole jumbo*/
 #jumbo-back {
     height: 550px;
@@ -114,6 +131,9 @@ h1 {
 
 .offer-buy {
     height: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .offer-checklist {
