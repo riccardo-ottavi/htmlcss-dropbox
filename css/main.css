@@ -204,6 +204,22 @@ main i {
 
 #partner-text {
     width: 40%;
-    
+}
 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.op-col {
+    width: calc(100% / 3 - (40px/3));
+    /*debug*/
+    height: 400px;
+    background-color: yellowgreen;
+}
+
+.card img {
+    max-width: 100%;
 }
