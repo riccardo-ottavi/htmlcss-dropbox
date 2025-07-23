@@ -60,7 +60,7 @@ h1 {
     background-color: #0261FE;
     color: white;
     padding: 10px;
-    display: flex;
+    display: inline-block;
     width: 192px;
     text-align: center;
 }
@@ -105,6 +105,12 @@ h1 {
 .col {
     width: calc((100% / 3) - (30px/3)); 
     border: 1px black solid;
+    
+}
+
+.col * {
+    margin-top: 9px;
+    margin-left: 12px;
 }
 
 /*regole elementi interni a colonne*/
@@ -115,6 +121,9 @@ h1 {
     height: 50px;
     background-color: white;
     border-bottom: black 1px solid;
+    /*resetta regola degli elementi interni alla tabella */
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 .offer-title{
