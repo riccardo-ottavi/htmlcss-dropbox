@@ -221,3 +221,8 @@ main i {
 .card img {
     max-width: 100%;
 }
+
+#users-div {
+    width: 60%;
+    padding-top: 40px;
+}
