@@ -69,6 +69,11 @@ h1 {
     text-align: center;
 }
 
+#white-button {
+    padding: 8px;
+    border: 1px black solid;
+}
+
 
 /*regole jumbo*/
 #jumbo-back {
@@ -181,4 +186,24 @@ main i {
     /*resetta regola degli elementi interni alla tabella */
     margin-top: 0px;
     margin-left: 0px;
+}
+
+/*regoles ezione partner*/
+
+#partner-container {
+    display: flex;
+}
+
+#partner-img {
+    width: 60%;
+}
+
+#partner-img img{
+    width: 100%;
+}
+
+#partner-text {
+    width: 40%;
+    
+
 }
