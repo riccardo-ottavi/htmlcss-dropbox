@@ -80,15 +80,44 @@ i{
 
 /*regole main*/
 #subs-container {
-    /*debug*/
-    background-color: aqua;
-    height: 600px;
     display: flex;
     gap: 30px;
 }
 
 .col {
     width: calc((100% / 3) - (30px/3));
-    background-color: blue;
-    
+    background-color: blue;   
+}
+
+/*regole elementi interni a colonne*/
+.offert-icon {
+    display: flex;
+    height: 50px;
+    background-color: white;
+    border: black 1px solid;
+}
+
+.offer-title{
+    height: 200px;
+    background-color: darkmagenta;
+}
+
+.offer-desc {
+    height: 220px;
+    background-color: crimson;
+}
+
+.offer-buy {
+    height: 130px;
+    background-color: brown;
+}
+
+.offer-checklist {
+    height:300px;
+    background-color: darkorange;
+}
+
+main i {
+    width: 30px;
+    height: 30px;
 }
