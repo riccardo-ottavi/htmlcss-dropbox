@@ -112,7 +112,8 @@ h1 {
     
 }
 
-.col * {
+.col *,
+#offert-content * {
     margin-top: 9px;
     margin-left: 12px;
 }
@@ -163,5 +164,21 @@ main i {
 #large-col{
     width: 100%;
     height: 250px;
-    background-color: yellow;
+    border: black 1px solid;
+    margin-top: 50px;
+}
+
+#contact-content {
+    margin-top: 9px;
+    margin-left: 12px;
+}
+
+#offert-content{
+    display: flex;
+}
+
+#contact-btn-div {
+    /*resetta regola degli elementi interni alla tabella */
+    margin-top: 0px;
+    margin-left: 0px;
 }
