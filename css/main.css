@@ -8,7 +8,7 @@
 main {
     width: 55%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 ul {
@@ -87,6 +87,7 @@ h1 {
 
 .col {
     width: calc((100% / 3) - (30px/3)); 
+    border: 1px black solid;
 }
 
 /*regole elementi interni a colonne*/
@@ -96,28 +97,29 @@ h1 {
     align-items: center;
     height: 50px;
     background-color: white;
-    border: black 1px solid;
-
+    border-bottom: black 1px solid;
 }
 
 .offer-title{
     height: 200px;
-    background-color: darkmagenta;
+    display: flex;
+    flex-direction: column;
 }
 
 .offer-desc {
     height: 220px;
-    background-color: crimson;
+    display: flex;
+    flex-direction: column;
 }
 
 .offer-buy {
     height: 130px;
-    background-color: brown;
 }
 
 .offer-checklist {
     height:300px;
-    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
 }
 
 main i {
