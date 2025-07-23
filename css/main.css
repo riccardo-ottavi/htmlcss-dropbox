@@ -5,21 +5,28 @@
     box-sizing: border-box;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /*regole header*/
-
 #navbar {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     /*debug*/
     height: 90px;
     background-color: blueviolet;
 }
 
-ul {
-    display: flex;
-}
-
-#navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#left-nav *,
+#right-nav *{
+    padding-left: 5px;
+    padding-right: 5px;
 }
