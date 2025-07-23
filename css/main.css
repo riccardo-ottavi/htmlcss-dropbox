@@ -15,6 +15,12 @@ a {
     color: black;
 }
 
+h1 {
+    font-size: 70px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
 /*regole navbar*/
 #navbar {
     display: flex;
@@ -37,7 +43,32 @@ a {
 }
 
 #jumbo-container {
-    width: 70%;
+    width: 66%;
     margin: 0 auto;
-    text-align: center;
+    /*debug*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding-left: 50px;
+}
+
+#jumbo-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#jumbo-img {
+    width: 60%;
+    position: relative;
+}
+
+#jumbo-container img {
+   max-height: 100%;
+   max-width: 100%;
+}
+
+i{
+    height: 60px;
+    color: red;
 }
