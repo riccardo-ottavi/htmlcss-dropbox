@@ -212,8 +212,7 @@ main ul {
     /*resetta regola degli elementi interni alla tabella */
     margin-top: 8px;
     margin-left: 0px;
-    gap: 16px
-    ;
+    gap: 4px;
 }
 
 .offer-title{
@@ -226,10 +225,6 @@ main ul {
 .offer-checklist *{
     display: flex;
     padding-bottom: 10px;
-}
-
-i {
-    width: 3px;
 }
 
 .offer-desc {
@@ -422,9 +417,9 @@ footer a{
 }
 
 #leng-sel {
-    margin-left: 186px;
+    margin-left: 231px;
     padding-bottom: 50px;
-   color: #9BA0A0;
+    color: #9BA0A0;
 }
 
 footer hr{
