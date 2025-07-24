@@ -65,7 +65,6 @@ h5 {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /*debug*/
     height: 80px;
     position: fixed;
     z-index: 1000;
@@ -176,7 +175,7 @@ h5 {
     padding-top: 70px;
     border-bottom: 30px;
     position: relative;
-    height:710px;
+    height:680px;
 }
 
 #jumbo-text i {
@@ -206,6 +205,12 @@ h5 {
 
 #jumbo-text #arrow-icon {
    font-size: 50px;
+   
+}
+
+.arrow-container {
+    position: relative;
+    bottom: 25px;
 }
 
 #jumbo-text *{
@@ -224,7 +229,7 @@ h5 {
 
 #jumbo-container img {
    max-width: 93%;
-   padding-bottom: 40px;
+   padding-bottom: 73px;
 }
 
 /*regole main*/
@@ -327,7 +332,7 @@ main ul {
 
 
 .off-row {
-  gap: 13px;
+  gap: 3px;
   display: flex;
   align-items: baseline;
   width: 90%;
@@ -371,7 +376,7 @@ main ul {
 /*regole sezione partner*/
 #partner-container {
     display: flex;
-    padding-top: 220px;
+    padding-top: 180px;
 }
 
 #partner-img {
