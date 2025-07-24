@@ -88,7 +88,7 @@ h5 {
     color: white;
     padding: 10px;
     display: inline-block;
-    width: 285px;
+    width: 218px;
     text-align: center;
     white-space: nowrap;
 }
@@ -430,9 +430,10 @@ footer a{
 }
 
 #leng-sel {
-    margin-left: 231px;
+    width: 75%;
     padding-bottom: 50px;
     color: #9BA0A0;
+    margin: 0 auto;
 }
 
 footer hr{
