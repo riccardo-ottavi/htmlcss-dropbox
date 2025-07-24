@@ -17,7 +17,6 @@ main {
 }
 
 footer {
-    height: 500px;
     background-color: black;
     color: white;
 }
@@ -46,6 +45,10 @@ h1 {
 
 h2{
     font-size: 28px;
+}
+
+h5 {
+    font-size: 19px;
 }
 
 /*regole navbar*/
@@ -330,10 +333,15 @@ main i {
 }
 
 #footer-col-container {
-    width: 80%;
+    width: 75%;
     display: flex;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 70px;
+    
+}
+
+.footer-col *{
+    padding-bottom: 20px;
 }
 
 footer ul {
@@ -346,3 +354,19 @@ footer ul {
     width: 100%;
 }
 
+footer a{
+    color: white;
+}
+
+#leng-sel {
+    margin-left: 186px;
+    padding-bottom: 50px;
+   color: #9BA0A0;
+}
+
+footer hr{
+    width: 7%;
+    height: 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
