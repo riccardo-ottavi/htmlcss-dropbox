@@ -77,6 +77,12 @@ h5 {
     padding-left: 5px;
     padding-right: 5px;
     height: 25px;
+    display: flex;
+    display: inline;
+}
+
+#right-nav {
+    margin-top:  10px;
 }
 
 /*regole bottoni*/
@@ -132,7 +138,8 @@ h5 {
 
 /*regole hover*/
 .nav-hov {
-    padding-bottom: 52px;
+    padding-bottom: 25px;
+    padding-top: 45px;
 }
 
 .nav-hov:hover {
