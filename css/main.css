@@ -149,26 +149,26 @@ main ul {
 }
 
 .offer-title{
-    height: 200px;
+    
     display: flex;
     flex-direction: column;
 }
 
 .offer-desc {
-    height: 220px;
+
     display: flex;
     flex-direction: column;
 }
 
 .offer-buy {
-    height: 130px;
+ 
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .offer-checklist {
-    height:300px;
+   
     display: flex;
     flex-direction: column;
 }
