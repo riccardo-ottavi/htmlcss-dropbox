@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -28,6 +28,7 @@ ul {
     display: flex;
     list-style-type: none;
 }
+
 
 hr {
     margin-top: 160px;
@@ -171,16 +172,15 @@ h2{
 #offert-content * {
     margin-top: 9px;
     margin-left: 8px;
-    margin-right: 8px;
+}
+
+.offer-checklist span {
+    margin-right: 13px;
 }
 
 main ul {
     display: flex;
     flex-direction: column;
-}
-
-#plan-find {
-
 }
 
 /*regole elementi interni a colonne*/
@@ -197,7 +197,7 @@ main ul {
 }
 
 .offer-title{
-    
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -206,6 +206,10 @@ main ul {
 .offer-checklist *{
     display: flex;
     
+}
+
+.offer-desc {
+    padding-bottom: 50px;
 }
 
 .offer-buy {
@@ -252,6 +256,7 @@ main i {
 
 #partner-container {
     display: flex;
+    padding-top: 220px;
 }
 
 #partner-img {
@@ -264,6 +269,13 @@ main i {
 
 #partner-text {
     width: 40%;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+#partner-text *{
+    margin-bottom: 25px;
+    width: 82%;
 }
 
 
