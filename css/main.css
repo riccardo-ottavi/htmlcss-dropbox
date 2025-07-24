@@ -135,6 +135,7 @@ h5 {
 #jumbo-back {
     background-color: #B4D0E7;
     padding-top: 70px;
+    border-bottom: 30px;
 }
 
 #jumbo-text i {
@@ -150,6 +151,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
+    padding-bottom: 39px;
 }
 
 #jumbo-text {
@@ -166,8 +168,12 @@ h5 {
 
 #jumbo-img {
     width: 60%;
-    position: relative;
     padding-top: 50px;
+    transform: translateX(-13%);
+    position: absolute;
+    left: 50%;
+    bottom: -157px;
+    max-width: 800px;
 }
 
 #jumbo-container img {
