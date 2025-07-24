@@ -84,7 +84,7 @@ h5 {
     color: white;
     padding: 10px;
     display: inline-block;
-    width: 235px;
+    width: 285px;
     text-align: center;
     white-space: nowrap;
 }
@@ -167,14 +167,13 @@ h5 {
 }
 
 #jumbo-container img {
-   max-height: 100%;
    max-width: 100%;
 }
 
 /*regole main*/
 #subs-container {
     display: flex;
-    gap: 30px;
+    gap: 57px;
 }
 
 .col {
@@ -222,7 +221,7 @@ main ul {
 .offer-desc *,
 .offer-checklist *{
     display: flex;
-    
+    padding-bottom: 10px;
 }
 
 i {
@@ -230,19 +229,28 @@ i {
 }
 
 .offer-desc {
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
 }
 
-.offer-buy {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.offer-buy > *:not(:last-child) {
+  margin-bottom: 10px; 
+}
+
+.offer-buy hr {
+    width: 18%;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 1px;
 }
 
 .offer-buy *{
    margin-bottom: 40px;
+}
+
+.buy-link{
+    color: #0261FE;
+    text-decoration: underline;
+    margin-left: 0px;
 }
 
 .offer-checklist {
@@ -255,7 +263,7 @@ i {
 .off-row {
   gap: 13px;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   width: 90%;
   margin: 0 auto;
 }
