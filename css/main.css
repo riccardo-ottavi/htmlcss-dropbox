@@ -23,12 +23,10 @@ footer {
     color: white;
 }
 
-
 ul {
     display: flex;
     list-style-type: none;
 }
-
 
 hr {
     margin-top: 160px;
@@ -110,7 +108,6 @@ h2{
     padding: 8px;
     border: 1px black solid;
 }
-
 
 /*regole jumbo*/
 #jumbo-back {
@@ -277,8 +274,6 @@ main i {
     width: 82%;
 }
 
-
-
 /*regole feature section*/
 .row {
     display: flex;
@@ -313,6 +308,20 @@ main i {
     padding-top: 40px;
 }
 
+/*regole sezione users*/
+#users-div {
+    padding-bottom: 200px;
+}
+
+#users-div *{
+ padding-bottom: 50px;
+}
+
+#users-div a {
+    color: #0261FE;
+    text-decoration: underline;
+}
+
 /*regole footer*/
 .footer-col {
     width: calc(100% / 3 - (40px /3));
@@ -334,3 +343,4 @@ footer ul {
 #leng-sel{
     width: 100%;
 }
+
