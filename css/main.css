@@ -170,7 +170,8 @@ h2{
 .col *,
 #offert-content * {
     margin-top: 9px;
-    margin-left: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 main ul {
@@ -201,10 +202,10 @@ main ul {
     flex-direction: column;
 }
 
-.offer-desc {
-
+.offer-desc *,
+.offer-checklist *{
     display: flex;
-    flex-direction: column;
+    
 }
 
 .offer-buy {
