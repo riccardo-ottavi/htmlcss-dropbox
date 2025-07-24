@@ -69,6 +69,7 @@ h5 {
 #right-nav *{
     padding-left: 5px;
     padding-right: 5px;
+    height: 25px;
 }
 
 /*regole bottoni*/
@@ -110,6 +111,20 @@ h5 {
 #white-button {
     padding: 8px;
     border: 1px black solid;
+}
+
+/*regole hover*/
+.nav-hov {
+    padding-bottom: 52px;
+}
+
+.nav-hov:hover {
+    border-bottom: 1px solid black;
+}
+
+.small-button:hover,
+.large-button:hover {
+    background-color: #418aff;
 }
 
 /*regole jumbo*/
@@ -389,3 +404,4 @@ footer hr{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
