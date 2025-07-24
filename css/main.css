@@ -21,9 +21,6 @@ footer {
     color: white;
 }
 
-footer hr {
-
-}
 
 ul {
     display: flex;
@@ -131,6 +128,11 @@ h1 {
 #offert-content * {
     margin-top: 9px;
     margin-left: 12px;
+}
+
+main ul {
+    display: flex;
+    flex-direction: column;
 }
 
 /*regole elementi interni a colonne*/
