@@ -194,6 +194,8 @@ main ul {
     /*resetta regola degli elementi interni alla tabella */
     margin-top: 0px;
     margin-left: 0px;
+    gap: 16px
+    ;
 }
 
 .offer-title{
@@ -208,7 +210,7 @@ main ul {
     
 }
 
-.col i {
+i {
     width: 3px;
 }
 
@@ -241,11 +243,6 @@ main ul {
   align-items: center;
   width: 90%;
   margin: 0 auto;
-}
-
-main i {
-    width: 30px;
-    height: 30px;
 }
 
 #large-col{
