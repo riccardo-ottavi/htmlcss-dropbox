@@ -48,6 +48,10 @@ h2{
     font-size: 28px;
 }
 
+h3 {
+    font-size: 27px;
+}
+
 h5 {
     font-size: 19px;
 }
@@ -201,12 +205,12 @@ main ul {
 .offert-icon {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 50px;
+    align-items: baseline;
+    height: 41px;
     background-color: white;
     border-bottom: black 1px solid;
     /*resetta regola degli elementi interni alla tabella */
-    margin-top: 0px;
+    margin-top: 8px;
     margin-left: 0px;
     gap: 16px
     ;
@@ -247,25 +251,38 @@ i {
    margin-bottom: 40px;
 }
 
+.grassetto {
+    font-weight: 700;
+}
+
+.gray-text{
+    color: gray;
+}
+
 .buy-link{
     color: #0261FE;
     text-decoration: underline;
     margin-left: 0px;
 }
 
-.offer-checklist {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    padding-bottom: 50px;
+.offer-checklist *{
+   margin-left: 0;
 }
+
+.offer-checklist {
+    margin-left: 24px;
+}
+
+.reset-margin {
+    margin-left: 0;
+}
+
 
 .off-row {
   gap: 13px;
   display: flex;
   align-items: baseline;
   width: 90%;
-  margin: 0 auto;
 }
 
 #large-col{
@@ -273,6 +290,10 @@ i {
     height: 250px;
     border: black 1px solid;
     margin-top: 50px;
+}
+
+#large-col i{
+    margin-top:10px;
 }
 
 #contact-content {
