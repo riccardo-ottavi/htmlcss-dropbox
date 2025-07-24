@@ -122,6 +122,7 @@ h5 {
 .choice-opt {
     display: flex;
     margin-right: 30px;
+    gap: 5px;
 }
 
 .choice-but {
@@ -129,6 +130,24 @@ h5 {
     height: 20px;
     width: 20px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.choice-but span{
+    font-size: 40px;
+    color: white;
+    position: relative;
+    bottom: 13px;
+    left: 5px;
+}
+
+#choice-but-white{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 #white-button {
