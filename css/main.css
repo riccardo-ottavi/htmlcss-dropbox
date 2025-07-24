@@ -8,6 +8,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+   
 }
 
 main {
@@ -82,7 +83,7 @@ h5 {
     color: white;
     padding: 10px;
     display: inline-block;
-    width: 215px;
+    width: 235px;
     text-align: center;
     white-space: nowrap;
 }
@@ -207,21 +208,39 @@ main ul {
     
 }
 
+.col i {
+    width: 3px;
+}
+
 .offer-desc {
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .offer-buy {
- 
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
+.offer-buy *{
+   margin-bottom: 40px;
+}
+
 .offer-checklist {
-   
     display: flex;
     flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+}
+
+.off-row {
+  gap: 13px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 main i {
