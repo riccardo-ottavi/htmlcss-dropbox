@@ -123,7 +123,7 @@ h5 {
 }
 
 .nav-hov:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+    border-bottom: 1px solid black;
 }
 
 .small-button:hover,
@@ -136,6 +136,7 @@ h5 {
     background-color: #B4D0E7;
     padding-top: 70px;
     border-bottom: 30px;
+    position: relative;
 }
 
 #jumbo-text i {
@@ -145,13 +146,14 @@ h5 {
 }
 
 #jumbo-container {
-    width: 57%;
+    width: 48%;
     margin: 0 auto;
     /*debug*/
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
     padding-bottom: 39px;
+    position: relative;
 }
 
 #jumbo-text {
@@ -167,12 +169,12 @@ h5 {
 }
 
 #jumbo-img {
-    width: 60%;
+    width: 90%;
     padding-top: 50px;
     transform: translateX(-13%);
     position: absolute;
     left: 50%;
-    bottom: -157px;
+    bottom: -62px;
     max-width: 800px;
 }
 
