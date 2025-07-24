@@ -256,8 +256,11 @@ main i {
 }
 
 #contact-content {
-    margin-top: 9px;
+    margin-top: 27px;
     margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #offert-content{
@@ -266,8 +269,8 @@ main i {
 
 #contact-btn-div {
     /*resetta regola degli elementi interni alla tabella */
-    margin-top: 0px;
-    margin-left: 0px;
+    margin-top: 17px;
+    margin-right: 21px;
 }
 
 /*regole sezione partner*/
