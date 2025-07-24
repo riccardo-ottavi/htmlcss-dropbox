@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    width: 60%;
+    width: 55%;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -80,7 +80,15 @@ h5 {
 .small-button {
     background-color: #0261FE;
     color: white;
-    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#start-button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .large-button {
@@ -88,9 +96,10 @@ h5 {
     color: white;
     padding: 10px;
     display: inline-block;
-    width: 218px;
+    width:89%;
     text-align: center;
     white-space: nowrap;
+    min-width: 231px;
 }
 
 #choice-menu {
@@ -317,9 +326,10 @@ main ul {
 }
 
 #contact-btn-div {
-    /*resetta regola degli elementi interni alla tabella */
     margin-top: 17px;
     margin-right: 21px;
+    margin-left: 36px;
+
 }
 
 /*regole sezione partner*/
